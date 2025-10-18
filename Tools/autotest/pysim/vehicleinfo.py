@@ -166,6 +166,24 @@ class VehicleInfo(object):
                                             "default_params/gazebo-iris.parm"],
                 "external": True,
             },
+            "gazebo-iris-9002": {
+                "waf_target": "bin/arducopter",
+                "default_params_filename": ["default_params/copter.parm",
+                                            "default_params/gazebo-iris.parm"],
+                "external": True,
+            },
+            "gazebo-iris-9012": {
+                "waf_target": "bin/arducopter",
+                "default_params_filename": ["default_params/copter.parm",
+                                            "default_params/gazebo-iris.parm"],
+                "external": True,
+            },
+            "gazebo-iris-9022": {
+                "waf_target": "bin/arducopter",
+                "default_params_filename": ["default_params/copter.parm",
+                                            "default_params/gazebo-iris.parm"],
+                "external": True,
+            },
             "airsim-copter": {
                 "waf_target": "bin/arducopter",
                 "default_params_filename": ["default_params/copter.parm",

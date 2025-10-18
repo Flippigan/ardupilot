@@ -525,15 +525,6 @@ class SITLLaunch:
                 "command",
                 default_value="arducopter",
                 description="Run ArduPilot SITL.",
-                choices=[
-                    "antennatracker",
-                    "arducopter-heli",
-                    "ardurover",
-                    "blimp",
-                    "arducopter",
-                    "arduplane",
-                    "ardusub",
-                ],
             ),
             DeclareLaunchArgument(
                 "model",
